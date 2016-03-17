@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.javstream" name="JAV Stream" version="0.80.5" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <requires>
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.urlresolver" version="2.10.0" />
+    </requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Jav Stream</summary>
+		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
+<addon id="plugin.video.likuoo" name="Likuoo" version="0.4" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Likuoo</summary>
+		<description lang="en">Pulling all the best porn from likuoo.com</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@ptom.co.uk</email>
+	</extension>
+</addon>
+
+<addon id="plugin.video.sledgehammer" name="Sledgehammer" version="0.50" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <requires>
+        <import addon="script.module.beautifulsoup4" version="4.3.2" />
+        <import addon="script.module.urlresolver" version="2.10.0" />
+    </requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Sledgehammer</summary>
+		<description lang="en">I want to be your sledgehammer, why don't you call my name</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
+<addon id="plugin.video.woodrocket" name="Wood Rocket" version="0.3" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Wood Rocket</summary>
+		<description lang="en">Pulling all the best porn from WoodRocket.com</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@ptom.co.uk</email>
+	</extension>
+</addon>
+</addons>

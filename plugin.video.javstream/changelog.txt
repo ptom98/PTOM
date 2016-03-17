@@ -1,0 +1,93 @@
+-----------------------------------
+JAVStream v0.8.5(7th March 2016)
+-----------------------------------
+
+- Fixed another naming issue which stopped some films getting found
+- Fixed issues with OpenLoad and VideoWood playback
+
+-----------------------------------
+JAVStream v0.8.4(2st March 2016)
+-----------------------------------
+
+- Fixed naming issue which stopped some films getting found
+- Added JavEU and Yebbun90 to sites searched
+
+-----------------------------------
+JAVStream v0.8.3(1st March 2016)
+-----------------------------------
+
+- Fixed OpenLoad, VideMega and flashx playback issues
+
+-----------------------------------
+JAVStream v0.8 (15th February 2016)
+-----------------------------------
+
+- Rewrote core functionality
+- Rewrote to work with BeautifulSoup
+- Rewrote translation to use Bing and not Google Translate
+- Added menu icons
+- Added settings screen
+- Using JavPOP as indexer
+- Added new sources: sexloadng, ivhunter, javhdonline, watchjavonline, javlinks, dodova, hentaidream, jav69, streamingjav, phimsexjav, javwest, dinojav, top1porn, jav-stream, javseen, ikujav, javst, javlabels, terlarang, jav4k, javhub, javonlines
+- Added Captcha functionality
+- Added OpenLoad error checking
+- Added alternative video loading for OpenLoad if API fails
+
+-----------------------------------
+JAVStream v0.72.6 (25 September 2015)
+-----------------------------------
+
+- Quick fix to resolve issues with VideoWood streaming playback
+
+-----------------------------------
+JAVStream v0.72.5 (24 September 2015)
+-----------------------------------
+
+- Fixed issue which would cause Source Selection screen to crash with some videos
+
+-----------------------------------
+JAVStream v0.72.4 (19 September 2015)
+-----------------------------------
+
+- Fixed coding bug introduced in 0.72.2
+- Added 'Broken' label to known broken sources within the addon
+- Added additional page to allow selection of source rather than just auto playing from first source
+- Added some additional debug alerts for OpenLoad videos
+
+-----------------------------------
+JAVStream v0.72.3 (18 September 2015)
+-----------------------------------
+
+- Fixed coding bug introduced in 0.72.2
+
+-----------------------------------
+JAVStream v0.72.2 (18 September 2015)
+-----------------------------------
+
+- OpenLoad videos adding, meaning a lot of the Gravure videos will now play again
+
+-----------------------------------
+JAVStream v0.72.1 (08 September 2015)
+-----------------------------------
+
+- Disable OpenLoad videos and enabled VideoMega links, so that some videos play. Will add OpenLoad back in for the next update
+
+-----------------------------------
+JAVStream v0.72 (08 September 2015)
+-----------------------------------
+
+- Fixed OpenLoad error issues (thnxs to mortael @WhiteCream)
+
+-----------------------------------
+JAVStream v0.71 (24 July 2015)
+-----------------------------------
+
+- Fixed Search functionality
+- Add specific JAV and Gravure Search features
+
+-----------------------------------
+JAVStream v0.7 (24 July 2015)
+-----------------------------------
+
+- Completely rewritten from the ground up. Splits JAV and Gravure into their own sections
+- Added new sources

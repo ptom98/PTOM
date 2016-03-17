@@ -1,0 +1,26 @@
+
+-----------------------------------
+Sledgehammer v0.50 (11/02/2016)
+-----------------------------------
+- Removed Beautiful Soup from library and called Kodi Module instead
+- Added and intergrated URLResolver module to addon
+- Allowed source selection when watching a film
+
+-----------------------------------
+Sledgehammer v0.41 (01/02/2016)
+-----------------------------------
+- Fixed 'Next Page' bug in Popular Movies
+
+-----------------------------------
+Sledgehammer v0.4 (31/01/2016)
+-----------------------------------
+- Added video scraping
+- Added popular movies
+- Added auto playback (future releases will have source selection)
+
+-----------------------------------
+Sledgehammer v0.1 (28/01/2016)
+-----------------------------------
+
+- Added search functionality tied into themoviedatabase
+- Created basic menu structure

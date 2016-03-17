@@ -1,0 +1,6 @@
+-----------------------------------
+Likuoo v0.4 (2 September 2015)
+-----------------------------------
+
+- Corrected Addon ID
+- Added numerous fixes to resolve playback issues

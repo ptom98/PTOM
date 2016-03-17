@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.likuoo" name="Likuoo" version="0.4" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Likuoo</summary>
+		<description lang="en">Pulling all the best porn from likuoo.com</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@ptom.co.uk</email>
+	</extension>
+</addon>

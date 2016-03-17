@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.sledgehammer" name="Sledgehammer" version="0.50" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <requires>
+        <import addon="script.module.beautifulsoup4" version="4.3.2" /> 
+        <import addon="script.module.urlresolver" version="2.10.0" /> 
+    </requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Sledgehammer</summary>
+		<description lang="en">I want to be your sledgehammer, why don't you call my name</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
