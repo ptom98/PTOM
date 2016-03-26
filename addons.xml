@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.javstream" name="JAV Stream" version="0.80.5" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAV Stream" version="0.80.6" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
