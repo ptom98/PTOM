@@ -1,4 +1,15 @@
 -----------------------------------
+JAVStream v0.9(4th May 2016)
+-----------------------------------
+
+- Added YouPornJav, JavShow, EroPoi, Jav720p, Korean720, JavStreams, JavTV, JavStream365, JavABC, JavHDVideo, JavSex and JPIdols to sites searched
+- Added configuration for Uncensored, Censored, Gravure and Global Search
+- Added a download features
+- Added auto play
+- Fixed Next button image
+- Fixed VideoWood playback
+
+-----------------------------------
 JAVStream v0.8.6(26th March 2016)
 -----------------------------------
 
