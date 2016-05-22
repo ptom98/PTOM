@@ -1,5 +1,11 @@
 -----------------------------------
-JAVStream v0.90.1(22nd May 2016)
+JAVStream v0.90.3(22nd May 2016)
+-----------------------------------
+
+- Fixed issue which stopped database from being created
+
+-----------------------------------
+JAVStream v0.90.2(22nd May 2016)
 -----------------------------------
 
 - Fixed spelling mistake on DooJav69
