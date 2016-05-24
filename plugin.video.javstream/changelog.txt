@@ -1,4 +1,17 @@
 -----------------------------------
+JAVStream v0.90.5(22nd May 2016)
+-----------------------------------
+
+- Add a proxy for Javpop to get around ISPs blocking it
+- Tidied some debug code left in by mistake
+
+-----------------------------------
+JAVStream v0.90.4(22nd May 2016)
+-----------------------------------
+
+- Fixed issue which stopping saved searching and translations from working
+
+-----------------------------------
 JAVStream v0.90.3(22nd May 2016)
 -----------------------------------
 
