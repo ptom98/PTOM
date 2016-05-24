@@ -1,11 +1,4 @@
 -----------------------------------
-JAVStream v0.90.5(24nd May 2016)
------------------------------------
-
-- Added a JAVPop proxy to fix issues where ISPs are blocking it
-- Tidied up some debugging code left in by mistake
-
------------------------------------
 JAVStream v0.90.4(22nd May 2016)
 -----------------------------------
 
