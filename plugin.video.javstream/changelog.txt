@@ -1,4 +1,11 @@
 -----------------------------------
+JAVStream v0.90.6(27nd May 2016)
+-----------------------------------
+
+- Added setting option to manually change video view
+- Added contect menu to allow current view to become the default view
+
+-----------------------------------
 JAVStream v0.90.5(22nd May 2016)
 -----------------------------------
 
