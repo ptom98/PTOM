@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.javstream" name="JAVStream" version="0.90.6" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.90.7" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-    <requires>
-        <import addon="script.module.beautifulsoup4" version="4.3.2" /> 
-        <import addon="script.module.urlresolver" version="2.10.0" /> 
-    </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>

@@ -1,4 +1,15 @@
 -----------------------------------
+JAVStream v0.90.7(9th June 2016)
+-----------------------------------
+
+- Removed dependencies
+- Rewrote code for a bit extra speed
+- Added a 10 second response timeout when fetching URLs
+- Fixed issues with top1porn
+- Fixed javeu.com bug
+- Fixed OpenLoad hotlink error
+
+-----------------------------------
 JAVStream v0.90.6(27nd May 2016)
 -----------------------------------
 
