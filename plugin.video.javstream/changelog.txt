@@ -1,4 +1,12 @@
 -----------------------------------
+JAVStream v0.90.72 (14th June 2016)
+-----------------------------------
+
+- Fixed openload playback issues
+- Made Web Page Timeout and editable settings in the config
+- Added javl.com
+
+-----------------------------------
 JAVStream v0.90.71 (9th June 2016)
 -----------------------------------
 
