@@ -1,4 +1,13 @@
 -----------------------------------
+JAVStream v0.90.73 (18th June 2016)
+-----------------------------------
+
+- Fixed issue with autoplay
+- Fixed javeu.com url detection bug
+- Fixed top1porn.com url detection bug
+- Added some basic version tracking
+
+-----------------------------------
 JAVStream v0.90.72 (14th June 2016)
 -----------------------------------
 

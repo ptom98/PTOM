@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.javstream" name="JAVStream" version="0.90.72" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.90.73" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
     <requires>
         <import addon="script.module.beautifulsoup4" version="4.3.2" /> 
-        <import addon="script.module.urlresolver" version="2.10.0" /> 
+        <import addon="script.module.urlresolver" version="2.10.0" />
     </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
