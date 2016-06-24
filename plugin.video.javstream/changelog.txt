@@ -1,4 +1,15 @@
 -----------------------------------
+JAVStream v0.90.74(21st June 2016)
+-----------------------------------
+
+- Alphabeticalized all JAV streaming sites for ease of use
+- Fixed issue detecting certain GoogleVideo content
+- Added option to allow OpenLoad playback via official API, hopefully a temp fix for future pigeon issues
+- Fixed issue that was causing downloads to fail
+- Added jpav.site
+- Added javportal.net
+
+-----------------------------------
 JAVStream v0.90.73 (18th June 2016)
 -----------------------------------
 
