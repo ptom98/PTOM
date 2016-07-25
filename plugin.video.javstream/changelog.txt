@@ -1,4 +1,11 @@
 -----------------------------------
+JAVStream v0.90.76(25th July 2016)
+-----------------------------------
+
+- Correctly set media type to video, should allow more views available when viewing DVD covers
+- Added HJAV5278, Tubebo, JavPortal, FreePornXXX, JavBest, GravureGirlz 
+
+-----------------------------------
 JAVStream v0.90.75(29th June 2016)
 -----------------------------------
 
