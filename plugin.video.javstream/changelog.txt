@@ -1,11 +1,4 @@
 -----------------------------------
-JAVStream v0.90.8(29th July 2016)
------------------------------------
-
-- Removed broken code for nungav.com
-- Added support for Premium Sharing WuShare, added configd screen and enabled SD, HD and downloading from links
-
------------------------------------
 JAVStream v0.90.77(26th July 2016)
 -----------------------------------
 
