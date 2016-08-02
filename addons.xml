@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.javstream" name="JAVStream" version="0.91.1" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.91.2" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
