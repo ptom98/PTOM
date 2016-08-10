@@ -1,4 +1,12 @@
 -----------------------------------
+JAVStream v0.91.3(10th August 2016)
+-----------------------------------
+
+- Added javleak.com
+- Fixed OpenLoad playback issues
+- Fixed issue where GravureGirls was showing as JavBest
+
+-----------------------------------
 JAVStream v0.91.2(2nd August 2016)
 -----------------------------------
 
