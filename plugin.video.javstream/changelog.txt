@@ -1,4 +1,12 @@
 -----------------------------------
+JAVStream v0.91.4(13th September 2016)
+-----------------------------------
+- Fixed Google playback issues (work still needs doing)
+- Fixed OpenLoad playback issues
+- Fixed issue with javstreams.com
+- Added 9xxx, javtubehd, youjav
+
+-----------------------------------
 JAVStream v0.91.3(10th August 2016)
 -----------------------------------
 
