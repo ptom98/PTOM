@@ -1,4 +1,15 @@
 -----------------------------------
+JAVStream v0.91.7(16th September 2016)
+-----------------------------------
+- Removed WuShare login requirement for searching
+- Fixed WuShare download issue
+- Fixed regular expression that was finding false positives with google videos
+- Fixed OpenLoad playback issue
+- Removed unnessary debugging code
+- Added ability to handle atom feeds
+- Added idolportal, planetjav, ytbsexclub, streamjavporn, javcuteonline, jav-720p, koleksijav
+
+-----------------------------------
 JAVStream v0.91.6(14th September 2016)
 -----------------------------------
 - Fixed WuShare login issues
