@@ -1,4 +1,11 @@
 -----------------------------------
+JAVStream v0.91.8(21th September 2016)
+-----------------------------------
+- Recoded threaded search
+- Fixed OpenLoad
+- Adedd JavStreamClub
+
+-----------------------------------
 JAVStream v0.91.7(16th September 2016)
 -----------------------------------
 - Removed WuShare login requirement for searching
