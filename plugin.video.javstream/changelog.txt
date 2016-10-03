@@ -1,4 +1,14 @@
 -----------------------------------
+JAVStream v0.92(3rd October 2016)
+-----------------------------------
+- Updated logo and graphics within the app
+- Added kodi library intergration
+- Added favourites option
+- Added ability to reset favourites and search database within settings
+- Moved OpenLoad playback over to urlresolver addon to reduce maintainance
+- Removed megavideo
+
+-----------------------------------
 JAVStream v0.91.91(26th September 2016)
 -----------------------------------
 - Fixed WuShare Login Issue
