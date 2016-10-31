@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.javstream" name="JAVStream" version="0.92" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.92.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
@@ -10,6 +10,25 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
+        <news>JAVStream v0.92.3(28th October 2016)
+- Fixed issue so status dialog reflects the correct amount of sites processed
+- Fixed issue stopping JAVHDFree, Jav-Stream, StreamJavPorn, JPIdols, StreamingJAV displaying results
+- Fixed bug which caused infinite loop if canceling a search
+- Fixed bug that stopped search results showing if term had already been searched for
+- Fixed bug that stopped sources list showing for some videos
+- Fixed issue from JAV4K from displaying results in search
+- Fixed Flashx playback (still needs 100%)
+- Fixed Kodi17 bug that would cause Source Search dialog to appear again over the playing video
+- Fixed error which caused translation to crash when over quota
+- Rewrote uncensored code for all providers to display more results
+- Rewrote video sources to be ordered by qualtiy first 
+- Added Xonline, FreeJav, Javocado, Popjav, Jav18, JAVUS, JAVGo, GAIMUP
+- Added support for BigFile, vidto.me, RapidVideo, qwertycdn playback
+- Up'd default timeout from 10 seconds to 20 seconds
+- Removed EroPoi, JAV69, JavShow, IkuJAV, JAVStream365, JAVWest, JavZab, Korean720, PhimSexJav, Terlarng, YouJAV
+- Temprarily taken off JavPortal, fix in next update</news>
+        <forum>https://forums.tvaddons.ag/addon-releases/50629-jav-stream-japanese-xxx-adult-plugin-av-gravure-idol-streams.html</forum>
+        <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
 		<email>ptom98@gmail.com</email>
