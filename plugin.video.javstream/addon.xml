@@ -10,7 +10,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
-        <news>JAVStream v0.92.3(28th October 2016)
+        <news>JAVStream v0.92.3(31st October 2016)
 - Fixed issue so status dialog reflects the correct amount of sites processed
 - Fixed issue stopping JAVHDFree, Jav-Stream, StreamJavPorn, JPIdols, StreamingJAV displaying results
 - Fixed bug which caused infinite loop if canceling a search
