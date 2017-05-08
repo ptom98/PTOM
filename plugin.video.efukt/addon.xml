@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.efukt" name="EFUKT" version="0.2" provider-name="ptom">
+<addon id="plugin.video.efukt" name="EFUKT" version="0.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
@@ -12,8 +12,8 @@
 		<platform>all</platform>
 		<language>en</language>
 		<email>ptom98@gmail.com</email>
-        <news>EFukt v0.2 (19th December 2016)
-- Fixed ADDON_ID issue that was stopping the addon from running on some devices
+        <news>EFukt v0.3 (08th May 2017)
+- Fixed playback issues
         </news>
 	</extension>
 </addon>

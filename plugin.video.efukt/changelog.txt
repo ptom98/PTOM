@@ -1,4 +1,8 @@
 -----------------------------------
+EFukt v0.3 (08th May 2017)
+-----------------------------------
+- Fixed playabck issues
+-----------------------------------
 EFukt v0.2 (19th December 2016)
 -----------------------------------
 - Fixed ADDON_ID issue that was stopping the addon from running on some devices
