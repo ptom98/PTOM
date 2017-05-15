@@ -1,4 +1,12 @@
 -----------------------------------
+Likuoo v0.5 (15th May 2017)
+-----------------------------------
+
+- Fixed issues with plugin searching old domain
+- Added new playback functionailty
+- Fixed pagination issues
+
+-----------------------------------
 Likuoo v0.4 (2 September 2015)
 -----------------------------------
 
