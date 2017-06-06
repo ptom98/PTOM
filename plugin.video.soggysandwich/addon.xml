@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.soggysandwich" name="Soggysandwich" version="0.2" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Soggysandwich</summary>
+		<description lang="en">Unofficial Crunchyroll addon. Watch Anime and Asian Dramas in HD with no ads WITHOUT having a Premium account.</description>
+        <news>Soggysandwich v0.2 (5th June 2017)
+        - Update icon
+        -Added Search
+        
+Soggysandwich v0.1 (3rd June 2017)
+        - Initial Release</news> 
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
