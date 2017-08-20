@@ -1,4 +1,17 @@
 -----------------------------------
+JAVStream V0.93 (19th August 2017)
+-----------------------------------
+- Added RealDebrid support
+- Added ability to show/hide nonfunctioning RealDebrid sources
+- Added playback for vidoza, extmatrix
+- Added Sources: NoLimitsVideo, JavFastOnline, JavAVIdol, d9dm, JavSubtitle, Avgle, JAVLibrary, Free JAV Share, JAVArchive, 51Jav, JAVGuru, GravureTube, GoJAV, JavIP, JAV18.tv 
+- Replaced javbest.co with javbest.net
+- Fixed issues with jpidols
+- Moved tranlation to Google
+- Allowed for custom proxies
+- Removed: jav18.org, dinojav, jav-stream, ytbsexclub, doojav69, freejav, javavidol, yebbun90, tubebo, dodova, javstreamclub
+
+-----------------------------------
 JAVStream v0.92.3(31st October 2016)
 -----------------------------------
 - Fixed issue so status dialog reflects the correct amount of sites processed

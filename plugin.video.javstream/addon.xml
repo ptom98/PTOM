@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.javstream" name="JAVStream" version="0.92.3" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.93" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
     <requires>
         <import addon="script.module.beautifulsoup4" version="4.3.2" /> 
-        <import addon="script.module.urlresolver" version="3.0.12" />
+        <import addon="script.module.urlresolver" version="4.0.00" />
+        <import addon="script.module.requests" />
     </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
-        <news>JAVStream v0.92.3(31st October 2016)
-- Fixed issue so status dialog reflects the correct amount of sites processed
-- Fixed issue stopping JAVHDFree, Jav-Stream, StreamJavPorn, JPIdols, StreamingJAV displaying results
-- Fixed bug which caused infinite loop if canceling a search
-- Fixed bug that stopped search results showing if term had already been searched for
-- Fixed bug that stopped sources list showing for some videos
-- Fixed issue from JAV4K from displaying results in search
-- Fixed Flashx playback (still needs 100%)
-- Fixed Kodi17 bug that would cause Source Search dialog to appear again over the playing video
-- Fixed error which caused translation to crash when over quota
-- Rewrote uncensored code for all providers to display more results
-- Rewrote video sources to be ordered by qualtiy first 
-- Added Xonline, FreeJav, Javocado, Popjav, Jav18, JAVUS, JAVGo, GAIMUP
-- Added support for BigFile, vidto.me, RapidVideo, qwertycdn playback
-- Up'd default timeout from 10 seconds to 20 seconds
-- Removed EroPoi, JAV69, JavShow, IkuJAV, JAVStream365, JAVWest, JavZab, Korean720, PhimSexJav, Terlarng, YouJAV
-- Temprarily taken off JavPortal, fix in next update</news>
-        <forum>https://forums.tvaddons.ag/addon-releases/50629-jav-stream-japanese-xxx-adult-plugin-av-gravure-idol-streams.html</forum>
+        <news>-----------------------------------
+JAVStream V0.93 (19th August 2017)
+-----------------------------------
+- Added RealDebrid support
+- Added ability to show/hide nonfunctioning RealDebrid sources
+- Added playback for vidoza, extmatrix
+- Added Sources: NoLimitsVideo, JavFastOnline, JavAVIdol, d9dm, JavSubtitle, Avgle, JAVLibrary, Free JAV Share, JAVArchive, 51Jav, JAVGuru, GravureTube, GoJAV, JavIP, JAV18.tv 
+- Replaced javbest.co with javbest.net
+- Fixed issues with jpidols
+- Moved tranlation to Google
+- Allowed for custom proxies
+- Removed: jav18.org, dinojav, jav-stream, ytbsexclub, doojav69, freejav, javavidol, yebbun90, tubebo, dodova, javstreamclub</news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
