@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.showroomlive" name="ShowRoom" version="0.2" provider-name="ptom">
+<addon id="plugin.video.showroomlive" name="ShowRoom" version="0.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Watch all the live streams from ShowRoom</summary>
 		<description lang="en">Watch all the live streams from ShowRoom</description>
-        <news>ShowRoom v0.2
+        <news>ShowRoom v0.3
         ----------
-        Added new fanart and icon
+        Removed unnecessary inital menu
         </news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
