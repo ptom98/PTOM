@@ -19,7 +19,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.javstream" name="JAVStream" version="0.93" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.93.1" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
@@ -32,17 +32,11 @@
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
         <news>-----------------------------------
-JAVStream V0.93 (19th August 2017)
+JAVStream V0.93.1 (23rd August 2017)
 -----------------------------------
-- Added RealDebrid support
-- Added ability to show/hide nonfunctioning RealDebrid sources
-- Added playback for vidoza, extmatrix
-- Added Sources: NoLimitsVideo, JavFastOnline, JavAVIdol, d9dm, JavSubtitle, Avgle, JAVLibrary, Free JAV Share, JAVArchive, 51Jav, JAVGuru, GravureTube, GoJAV, JavIP, JAV18.tv
-- Replaced javbest.co with javbest.net
-- Fixed issues with jpidols
-- Moved tranlation to Google
-- Allowed for custom proxies
-- Removed: jav18.org, dinojav, jav-stream, ytbsexclub, doojav69, freejav, javavidol, yebbun90, tubebo, dodova, javstreamclub</news>
+- Labeled ReadDebrid sources
+- Gave the ability to custom colour premium links for easy seeing
+- Fixed SSL error on older android version of Kodi</news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>

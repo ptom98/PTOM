@@ -1,4 +1,11 @@
 -----------------------------------
+JAVStream V0.93.1 (23rd August 2017)
+-----------------------------------
+- Labeled ReadDebrid sources
+- Gave the ability to custom colour premium links for easy seeing
+- Fixed SSL error on older android version of Kodi
+
+-----------------------------------
 JAVStream V0.93 (19th August 2017)
 -----------------------------------
 - Added RealDebrid support
