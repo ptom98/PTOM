@@ -1,4 +1,12 @@
 -----------------------------------
+JAVStream V0.93.2 (30th August 2017)
+-----------------------------------
+- Added new search feature
+- Added Sources: asian51
+- Removed unnecessary debug code
+- Fixed issue that stopped addon running on Kodi 16
+
+-----------------------------------
 JAVStream V0.93.1 (23rd August 2017)
 -----------------------------------
 - Labeled ReadDebrid sources
