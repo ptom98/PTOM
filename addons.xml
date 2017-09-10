@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.audio.jpplay" name="JP Play" version="0.2" provider-name="ptom">
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Japaense popular music streamer, pulling music from jpsync.com</summary>
+		<description lang="en">Japaense popular music streamer, pulling music from jpsync.com.</description>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="plugin.video.efukt" name="EFUKT" version="0.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -131,6 +145,22 @@ Soggysandwich v0.1 (3rd June 2017)
 		<disclaimer>The owner and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.migufont"
+    name="Migu Font" version="1.0" provider-name="ptom">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Installs the Migu font, for use with addons that display Japanese text but the installed theme doesn't have a font to support it. Based off of Skin Font by taxigps, but nicer font added (in my opinion) and a couple of bug fixes added.</summary>
+    <description lang="en">Installs the Migu font, for use with addons that display Japanese text but the installed theme doesn't have a font to support it. Based off of Skin Font by taxigps, but nicer font added (in my opinion) and a couple of bug fixes added.</description>
+    <platform>all</platform>
+    <language></language>
+  </extension>
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="4.0.00" provider-name="tvaddons">

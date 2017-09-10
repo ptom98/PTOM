@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.migufont"
+    name="Migu Font" version="1.0" provider-name="ptom">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"> 
+     <provides>executable</provides> 
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Installs the Migu font, for use with addons that display Japanese text but the installed theme doesn't have a font to support it. Based off of Skin Font by taxigps, but nicer font added (in my opinion) and a couple of bug fixes added.</summary>
+    <description lang="en">Installs the Migu font, for use with addons that display Japanese text but the installed theme doesn't have a font to support it. Based off of Skin Font by taxigps, but nicer font added (in my opinion) and a couple of bug fixes added.</description>
+    <platform>all</platform>
+    <language></language>
+  </extension>
+</addon>
