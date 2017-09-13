@@ -10,7 +10,7 @@
   <summary>Pull up details of your seedbox on seedboxes.cc. Currently limited to one seedbox</summary>
   <description>Pull up details of your seedbox on seedboxes.cc. Currently limited to one seedbox</description>
     <platform>all</platform>
-    <language></language>
+    <language>en</language>
     <email>ptom98@gmail.com</email>
   </extension>
 </addon>

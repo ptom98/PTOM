@@ -181,4 +181,20 @@ Soggysandwich v0.1 (3rd June 2017)
         <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
+
+<addon id="script.seedboxescc" name="Seedboxescc" version="0.4" provider-name="ptom">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary>Pull up details of your seedbox on seedboxes.cc. Currently limited to one seedbox</summary>
+  <description>Pull up details of your seedbox on seedboxes.cc. Currently limited to one seedbox</description>
+    <platform>all</platform>
+    <language>en</language>
+    <email>ptom98@gmail.com</email>
+  </extension>
+</addon>
 </addons>
