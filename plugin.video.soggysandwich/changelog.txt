@@ -1,7 +1,11 @@
 -----------------------------------
-Soggysandwich v0.3 (7th September 2017)
+Soggysandwich v0.31 (7th October 2017)
 -----------------------------------
-- Updated icons throughout
+- Fixed playback issue
+-----------------------------------
+Soggysandwich v0.3 (7th October 2017)
+-----------------------------------
+- Updated icons through the adddon
 -----------------------------------
 Soggysandwich v0.2 (5th June 2017)
 -----------------------------------

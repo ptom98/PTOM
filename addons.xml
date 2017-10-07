@@ -93,14 +93,16 @@ JAVStream V0.93.2 (30th August 2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.soggysandwich" name="Soggysandwich" version="0.3" provider-name="ptom">
+<addon id="plugin.video.soggysandwich" name="Soggysandwich" version="0.31" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Soggysandwich</summary>
 		<description lang="en">Unofficial Crunchyroll addon. Watch Anime and Asian Dramas in HD with no ads WITHOUT having a Premium account.</description>
-        <news>Soggysandwich v0.3 (7th October 2017)
+        <news>Soggysandwich v0.31 (7th October 2017)
+        - Fixed playback issue
+        Soggysandwich v0.3 (7th October 2017)
         - Updated icons through the adddon</news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
