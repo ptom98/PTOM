@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.javstream" name="JAVStream" version="0.93.2" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.93.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
@@ -12,12 +12,11 @@
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
         <news>-----------------------------------
-JAVStream V0.93.2 (30th August 2017)
+JAVStream V0.93.3 (8th October 2017)
 -----------------------------------
-- Added new search feature
-- Added Sources: asian51
-- Removed unnecessary debug code
-- Fixed issue that stopped addon running on Kodi 16i</news>
+- Fixed issue when multiple sources found on one page
+- Fixed auto playback issue
+</news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>

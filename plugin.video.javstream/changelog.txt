@@ -1,4 +1,10 @@
 -----------------------------------
+JAVStream V0.93.3 (8th October 2017)
+-----------------------------------
+- Fixed issue when multiple sources found on one page
+- Fixed auto playback issue
+
+-----------------------------------
 JAVStream V0.93.2 (30th August 2017)
 -----------------------------------
 - Added new search feature
