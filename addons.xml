@@ -187,7 +187,7 @@ JAVStream V0.93.3 (8th October 2017)
 	</extension>
 </addon>
 
-<addon id="script.seedboxescc" name="Seedboxescc" version="0.5" provider-name="ptom">
+<addon id="script.seedboxescc" name="Seedboxescc" version="0.51" provider-name="ptom">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
