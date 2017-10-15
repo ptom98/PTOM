@@ -7,7 +7,6 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-        <summary lang="en">JavStream</summary>
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.</description>
 		<summary lang="en">Unofficial RealDebrid client</summary>
         <website>http://www.ptom.co.uk</website>
