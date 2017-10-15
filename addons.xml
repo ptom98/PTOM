@@ -187,6 +187,24 @@ JAVStream V0.93.3 (8th October 2017)
 	</extension>
 </addon>
 
+<addon id="script.realdebrid" name="RealDebrid" version="0.1" provider-name="ptom">
+	<requires>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">JavStream</summary>
+		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.</description>
+		<summary lang="en">Unofficial RealDebrid client</summary>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="script.seedboxescc" name="Seedboxescc" version="0.51" provider-name="ptom">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
