@@ -1,4 +1,8 @@
 -----------------------------------
+Soggysandwich v0.31 (8th Novemner 2017)
+-----------------------------------
+- Fixed cloudflare issue
+-----------------------------------
 Soggysandwich v0.31 (7th October 2017)
 -----------------------------------
 - Fixed playback issue
