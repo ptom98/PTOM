@@ -1,3 +1,6 @@
+v0.31 12/11/2017
+- fixed issue that could cause Kodi to lockup
+
 v0.3 11/11/2017
 - rewrote code to so that other addons can access it
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.realdebrid" name="RealDebrid" version="0.3" provider-name="ptom">
+<addon id="script.realdebrid" name="RealDebrid" version="0.31" provider-name="ptom">
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
@@ -9,8 +9,8 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.
-v0.3
-- rewrote to allow code to be accessed by other addons</description>
+v0.31
+- fixed issue which could cause Kodi to lockup</description>
 		<summary lang="en">Unofficial RealDebrid client</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
