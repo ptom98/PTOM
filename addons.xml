@@ -33,6 +33,23 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.idolonline" name="Idol Online RD" version="0.1" provider-name="ptom">
+	<requires>
+        <import addon="script.module.requests" version="2.3.0"/>
+		<import addon="script.realdebrid" version="0.31" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch JPop Idol videos. A premium RealDebrid account is required</summary>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="plugin.video.javstream" name="JAVStream" version="0.93.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -188,7 +205,7 @@ JAVStream V0.93.3 (8th October 2017)
 	</extension>
 </addon>
 
-<addon id="script.realdebrid" name="RealDebrid" version="0.3" provider-name="ptom">
+<addon id="script.realdebrid" name="RealDebrid" version="0.31" provider-name="ptom">
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
@@ -198,8 +215,8 @@ JAVStream V0.93.3 (8th October 2017)
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.
-v0.3
-- rewrote to allow code to be accessed by other addons</description>
+v0.31
+- fixed issue which could cause Kodi to lockup</description>
 		<summary lang="en">Unofficial RealDebrid client</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
