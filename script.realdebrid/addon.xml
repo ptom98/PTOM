@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.realdebrid" name="RealDebrid" version="0.2" provider-name="ptom">
+<addon id="script.realdebrid" name="RealDebrid" version="0.3" provider-name="ptom">
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
 	</extension>
+	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.
-v.02 Update
-- fixed summary in addon.xml
-- fixed playback issue in unrestricted links
-- added ability to download and delete unrestricted and torrent files</description>
+v0.3
+- rewrote to allow code to be accessed by other addons</description>
 		<summary lang="en">Unofficial RealDebrid client</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
