@@ -1,4 +1,10 @@
 -----------------------------------
+Idol Online v0.3 (14th November 2017)
+-----------------------------------
+- Fixed login issues
+
+
+-----------------------------------
 Idol Online v0.2 (13th November 2017)
 -----------------------------------
 - Fixed issues with addon calls

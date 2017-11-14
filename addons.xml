@@ -33,7 +33,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.idolonline" name="Idol Online RD" version="0.2" provider-name="ptom">
+<addon id="plugin.video.idolonline" name="Idol Online RD" version="0.3" provider-name="ptom">
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
 		<import addon="script.realdebrid" version="0.31" />
