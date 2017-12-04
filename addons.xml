@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.jpplay" name="JP Play" version="0.2" provider-name="ptom">
+<addon id="plugin.audio.jpplay" name="JP Play" version="0.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>audio</provides>
 	</extension>

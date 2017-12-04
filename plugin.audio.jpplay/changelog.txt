@@ -1,5 +1,9 @@
 -----------------------------------
-JP Player v0.1 (10th September 2017)
+JP Player v0.3 (04th December 2017)
+-----------------------------------
+- Fixed playback issues across whole addon
+-----------------------------------
+JP Player v0.2 (10th September 2017)
 -----------------------------------
 - Updated icons
 -----------------------------------
