@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.likuoo" name="Likuoo" version="0.5" provider-name="ptom">
+<addon id="plugin.video.likuoo" name="Likuoo" version="0.6" provider-name="ptom">
     <requires>
         <import addon="script.module.requests"/>
+		<import addon="script.module.urlresolver" version="4.0.12"/>
     </requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
