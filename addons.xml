@@ -206,7 +206,7 @@ JAVStream V0.93.3 (8th October 2017)
 	</extension>
 </addon>
 
-<addon id="script.realdebrid" name="RealDebrid" version="0.31" provider-name="ptom">
+<addon id="script.realdebrid" name="RealDebrid" version="0.4" provider-name="ptom">
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
@@ -216,8 +216,10 @@ JAVStream V0.93.3 (8th October 2017)
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.
-v0.31
-- fixed issue which could cause Kodi to lockup</description>
+v0.4
+- force reauthorise if real-debrid.com disallows credentials
+- fixed ssl issues which could cause the addon to crash
+- general tidy up and better handling of error messages</description>
 		<summary lang="en">Unofficial RealDebrid client</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
