@@ -1,3 +1,8 @@
+v0.4 16/01/2018
+- force reauthorise if real-debrid.com disallows credentials
+- fixed ssl issues which could cause the addon to crash
+- general tidy up and better handling of error messages
+
 v0.31 12/11/2017
 - fixed issue that could cause Kodi to lockup
 
