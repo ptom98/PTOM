@@ -14,6 +14,25 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.audrey" name="Audrey" version="0.5" provider-name="ptom">
+	<requires>
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.requests" />
+        <import addon="plugin.video.youtube" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Scrape any site</summary>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="plugin.video.efukt" name="EFUKT" version="0.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
