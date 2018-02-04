@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.audrey" name="Audrey" version="0.6" provider-name="ptom">
+<addon id="plugin.video.audrey" name="Audrey" version="0.7" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
         <import addon="script.module.requests" />
@@ -87,6 +87,23 @@ JAVStream V0.93.3 (8th October 2017)
 - Fixed issue when multiple sources found on one page
 - Fixed auto playback issue
 </news>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
+<addon id="plugin.video.jpop" name="JPop" version="0.1" provider-name="ptom">
+	<requires>
+        <import addon="plugin.video.audrey" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">JPop Videos on Kodi</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
