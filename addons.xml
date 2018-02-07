@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.audrey" name="Audrey" version="1.0.0" provider-name="ptom">
+<addon id="plugin.video.audrey" name="Audrey" version="1.0.1" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
         <import addon="script.module.requests" />
@@ -49,6 +49,23 @@
         <news>EFukt v0.3 (08th May 2017)
 - Fixed playback issues
         </news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.0" provider-name="ptom">
+	<requires>
+        <import addon="plugin.video.audrey" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch content from Funny or Die</summary>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
 	</extension>
 </addon>
 
@@ -190,6 +207,23 @@ JAVStream V0.93.3 (8th October 2017)
         v0.5 26/05/2017
         - Fixed issues after website got updated
         </news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.zeropunctuation" name="Zero Punctuation" version="1.0.0" provider-name="ptom">
+	<requires>
+        <import addon="plugin.video.audrey" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch content from Zero Punctuation</summary>
+        <website>http://www.ptom.co.uk</website>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
 	</extension>
 </addon>
 
