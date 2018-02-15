@@ -1,3 +1,7 @@
+v1.0.5 - 15/02/2018
+- removed debugging code
+- added YouTube age verification notification
+
 v1.0.4 - 15/02/2018
 - text correction
 
