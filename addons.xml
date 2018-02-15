@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.audrey" name="Audrey" version="1.0.2" provider-name="ptom">
+<addon id="plugin.video.audrey" name="Audrey" version="1.0.3" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
         <import addon="script.module.requests" />
@@ -25,7 +25,7 @@
 	</extension>
     <extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Scrape any site</summary>
+		<summary lang="en">Scrape any site using JSON</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
