@@ -14,7 +14,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.audrey" name="Audrey" version="1.0.5" provider-name="ptom">
+<addon id="plugin.video.audrey" name="Audrey" version="1.0.6" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
         <import addon="script.module.requests" />
