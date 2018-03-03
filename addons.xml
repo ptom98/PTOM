@@ -86,23 +86,23 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.javstream" name="JAVStream" version="0.93.3" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.93.4" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
     <requires>
         <import addon="script.module.beautifulsoup4" version="4.3.2" />
-        <import addon="script.module.urlresolver" version="4.0.00" />
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.resolveurl" version="5.0.00"/>
         <import addon="script.module.requests" />
     </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
         <news>-----------------------------------
-JAVStream V0.93.3 (8th October 2017)
+JAVStream V0.93.4 (3rd March 2018)
 -----------------------------------
-- Fixed issue when multiple sources found on one page
-- Fixed auto playback issue
+- Moved over to ResolverURL to fix playback issues
 </news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
@@ -255,25 +255,6 @@ JAVStream V0.93.3 (8th October 2017)
     <platform>all</platform>
     <language></language>
   </extension>
-</addon>
-
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.00" provider-name="tvaddons">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<platform>all</platform>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-	</extension>
 </addon>
 
 <addon id="script.realdebrid" name="RealDebrid" version="0.4" provider-name="ptom">
