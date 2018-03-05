@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ptom" name="PTOM Repo" version="0.7" provider-name="ptom">
+<addon id="repository.ptom" name="PTOM Repo" version="0.8" provider-name="ptom">
 	<extension point="xbmc.addon.repository" name="PTOM Repo">
 		<info compressed="false">http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml</info>
 		<checksum>http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml.md5</checksum>
