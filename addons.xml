@@ -265,6 +265,7 @@ JAVStream V0.93.4 (3rd March 2018)
 </addon>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <addon id="script.module.audrey" name="Audrey" version="1.1.1" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
@@ -309,25 +310,23 @@ JAVStream V0.93.4 (3rd March 2018)
 =======
 <addon id="script.realdebrid" name="RealDebrid" version="0.4.1" provider-name="ptom">
 >>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa
+=======
+<addon id="script.realdebrid" name="RealDebrid" version="0.4" provider-name="ptom">
+>>>>>>> parent of 4d58c19... added context menu to realdebrid
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
 	</extension>
-    <extension point="kodi.context.item">
-        <menu id="kodi.core.main">
-          <item library="addon.py">
-            <label>Play using RealDebrid</label>
-            <visible>Container.Content(episodes) | Container.Content(movies)</visible>
-          </item>
-        </menu>
-      </extension>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.
-v0.4.1
-- added "Play using RealDebrid" to context menu</summary>
+v0.4
+- force reauthorise if real-debrid.com disallows credentials
+- fixed ssl issues which could cause the addon to crash
+- general tidy up and better handling of error messages</description>
+		<summary lang="en">Unofficial RealDebrid client</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
