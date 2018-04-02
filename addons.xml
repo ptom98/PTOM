@@ -14,18 +14,16 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.audrey" name="Audrey" version="1.0.5" provider-name="ptom">
+<addon id="plugin.video.audreytester" name="Audrey Tester" version="1.0.0" provider-name="ptom">
 	<requires>
-        <import addon="script.module.urlresolver" />
-        <import addon="script.module.requests" />
-        <import addon="plugin.video.youtube" />
+        <import addon="script.module.audrey" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
     <extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Scrape any site using JSON</summary>
+		<summary lang="en">Test application for audrey</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
@@ -255,6 +253,27 @@ JAVStream V0.93.3 (8th October 2017)
     <platform>all</platform>
     <language></language>
   </extension>
+</addon>
+
+<addon id="script.module.audrey" name="Audrey" version="1.1.1" provider-name="ptom">
+	<requires>
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="plugin.video.youtube" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Audrey - JSON file to Addon</summary>
+        <description lang="en">Audrey takes a JSON feed (stored locally or online) and from this builds a Kodi addon</description>
+        <disclaimer lang="en"></disclaimer>
+        <language>en</language>
+        <license>GNU GPL v.3</license>
+        <website>http://romanvm.github.io/PyXBMCt</website>
+        <email>ptom98@gmail.com</email>
+        <source>https://github.com/romanvm/script.module.pyxbmct</source>
+    </extension>
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="4.0.00" provider-name="tvaddons">
