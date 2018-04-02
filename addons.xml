@@ -14,11 +14,7 @@
 	</extension>
 </addon>
 
-<<<<<<< HEAD:plugin.video.audreytester/addon.xml
 <addon id="plugin.video.audreytester" name="Audrey Tester" version="1.0.0" provider-name="ptom">
-=======
-<addon id="plugin.video.audrey" name="Audrey" version="1.0.6" provider-name="ptom">
->>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa:plugin.video.audrey/addon.xml
 	<requires>
         <import addon="script.module.audrey" />
     </requires>
@@ -229,16 +225,16 @@ JAVStream V0.93.4 (3rd March 2018)
 	</extension>
 </addon>
 
-<addon id="repository.ptom" name="PTOM Repo" version="1.0.1" provider-name="ptom">
+<addon id="repository.ptom" name="PTOM Repo" version="1.0.0" provider-name="ptom">
 	<extension point="xbmc.addon.repository" name="PTOM Repo">
         <dir>
             <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
             <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
             <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
         </dir>
-		<info compressed="false">https://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/ptom98/PTOM/master/</datadir>
+		<info compressed="false">http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml</info>
+		<checksum>http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/ptom98/PTOM/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>It's the PTOM Repo \o/</summary>
