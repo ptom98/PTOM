@@ -50,9 +50,9 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.0" provider-name="ptom">
+<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.1" provider-name="ptom">
 	<requires>
-        <import addon="plugin.video.audrey" />
+        <import addon="script.module.audrey" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -208,9 +208,9 @@ JAVStream V0.93.4 (3rd March 2018)
 	</extension>
 </addon>
 
-<addon id="plugin.video.zeropunctuation" name="Zero Punctuation" version="1.0.0" provider-name="ptom">
+<addon id="plugin.video.zeropunctuation" name="Zero Punctuation" version="1.0.1" provider-name="ptom">
 	<requires>
-        <import addon="plugin.video.audrey" />
+        <import addon="script.module.audrey" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

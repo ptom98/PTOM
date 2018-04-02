@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.0" provider-name="ptom">
+<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.1" provider-name="ptom">
 	<requires>
-        <import addon="plugin.video.audrey" />
+        <import addon="script.module.audrey" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
