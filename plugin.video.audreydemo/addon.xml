@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.audreytester" name="Audrey Tester" version="1.0.1" provider-name="ptom">
+<addon id="plugin.video.audreydemo" name="Audrey Demo" version="1.0.0" provider-name="ptom">
 	<requires>
         <import addon="script.module.audrey" />
     </requires>
@@ -8,10 +8,8 @@
 	</extension>
     <extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Test application for audrey, also allows you to create installerable Kodi addons</summary>
-        <website>http://www.ptom.co.uk</website>
+		<summary lang="en">Demo Addon showing how to use the Audrey script addon.</summary>
 		<platform>all</platform>
 		<language>en</language>
-		<email>ptom98@gmail.com</email>
 	</extension>
 </addon>
