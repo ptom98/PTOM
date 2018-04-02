@@ -14,11 +14,11 @@
 	</extension>
 </addon>
 
-<<<<<<< HEAD
+<<<<<<< HEAD:plugin.video.audreytester/addon.xml
 <addon id="plugin.video.audreytester" name="Audrey Tester" version="1.0.0" provider-name="ptom">
 =======
 <addon id="plugin.video.audrey" name="Audrey" version="1.0.6" provider-name="ptom">
->>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa
+>>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa:plugin.video.audrey/addon.xml
 	<requires>
         <import addon="script.module.audrey" />
     </requires>
@@ -264,8 +264,6 @@ JAVStream V0.93.4 (3rd March 2018)
   </extension>
 </addon>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 <addon id="script.module.audrey" name="Audrey" version="1.1.1" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
@@ -287,32 +285,7 @@ JAVStream V0.93.4 (3rd March 2018)
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.00" provider-name="tvaddons">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in Kodi.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<platform>all</platform>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-	</extension>
-</addon>
-
 <addon id="script.realdebrid" name="RealDebrid" version="0.4" provider-name="ptom">
-=======
-<addon id="script.realdebrid" name="RealDebrid" version="0.4.1" provider-name="ptom">
->>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa
-=======
-<addon id="script.realdebrid" name="RealDebrid" version="0.4" provider-name="ptom">
->>>>>>> parent of 4d58c19... added context menu to realdebrid
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
