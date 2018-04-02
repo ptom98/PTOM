@@ -1,4 +1,9 @@
 -----------------------------------
+JAVStream V0.93.4 (3rd March 2018)
+-----------------------------------
+- Moved over to ResolverURL to fix playback issues
+
+-----------------------------------
 JAVStream V0.93.3 (8th October 2017)
 -----------------------------------
 - Fixed issue when multiple sources found on one page

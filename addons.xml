@@ -14,7 +14,11 @@
 	</extension>
 </addon>
 
+<<<<<<< HEAD
 <addon id="plugin.video.audreytester" name="Audrey Tester" version="1.0.0" provider-name="ptom">
+=======
+<addon id="plugin.video.audrey" name="Audrey" version="1.0.6" provider-name="ptom">
+>>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa
 	<requires>
         <import addon="script.module.audrey" />
     </requires>
@@ -84,23 +88,23 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.javstream" name="JAVStream" version="0.93.3" provider-name="ptom">
+<addon id="plugin.video.javstream" name="JAVStream" version="0.93.4" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
     <requires>
         <import addon="script.module.beautifulsoup4" version="4.3.2" />
-        <import addon="script.module.urlresolver" version="4.0.00" />
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.resolveurl" version="5.0.00"/>
         <import addon="script.module.requests" />
     </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">JavStream</summary>
 		<description lang="en">[COLOR yellow]Jav Stream[/COLOR] - Bringing JAV to Kodi! For all your Japanese AV Idol and Gravure Idol needs! Pulling streams from the most popular JAV websites.</description>
         <news>-----------------------------------
-JAVStream V0.93.3 (8th October 2017)
+JAVStream V0.93.4 (3rd March 2018)
 -----------------------------------
-- Fixed issue when multiple sources found on one page
-- Fixed auto playback issue
+- Moved over to ResolverURL to fix playback issues
 </news>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
@@ -225,11 +229,16 @@ JAVStream V0.93.3 (8th October 2017)
 	</extension>
 </addon>
 
-<addon id="repository.ptom" name="PTOM Repo" version="0.7" provider-name="ptom">
+<addon id="repository.ptom" name="PTOM Repo" version="1.0.1" provider-name="ptom">
 	<extension point="xbmc.addon.repository" name="PTOM Repo">
-		<info compressed="false">http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml</info>
-		<checksum>http://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/ptom98/PTOM/master/</datadir>
+        <dir>
+            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+        </dir>
+		<info compressed="false">https://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/ptom98/PTOM/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/ptom98/PTOM/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>It's the PTOM Repo \o/</summary>
@@ -255,6 +264,7 @@ JAVStream V0.93.3 (8th October 2017)
   </extension>
 </addon>
 
+<<<<<<< HEAD
 <addon id="script.module.audrey" name="Audrey" version="1.1.1" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
@@ -296,20 +306,28 @@ JAVStream V0.93.3 (8th October 2017)
 </addon>
 
 <addon id="script.realdebrid" name="RealDebrid" version="0.4" provider-name="ptom">
+=======
+<addon id="script.realdebrid" name="RealDebrid" version="0.4.1" provider-name="ptom">
+>>>>>>> 9fb538f0f1b0c8bd8315032369c620f9491057fa
 	<requires>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
 	</extension>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+          <item library="addon.py">
+            <label>Play using RealDebrid</label>
+            <visible>Container.Content(episodes) | Container.Content(movies)</visible>
+          </item>
+        </menu>
+      </extension>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<description lang="en">Unofficial RealDebrid client. Manage your torrents, unrestricted links and view host statuses all within Kodi.
-v0.4
-- force reauthorise if real-debrid.com disallows credentials
-- fixed ssl issues which could cause the addon to crash
-- general tidy up and better handling of error messages</description>
-		<summary lang="en">Unofficial RealDebrid client</summary>
+v0.4.1
+- added "Play using RealDebrid" to context menu</summary>
         <website>http://www.ptom.co.uk</website>
 		<platform>all</platform>
 		<language>en</language>
