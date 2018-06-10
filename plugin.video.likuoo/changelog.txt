@@ -1,4 +1,10 @@
 -----------------------------------
+Likuoo v1.0.0 (10th June 2018)
+-----------------------------------
+- Moved over to Audrey framework
+- Added view video by pornstar
+
+-----------------------------------
 Likuoo v0.6 (5th December 2017)
 -----------------------------------
 
