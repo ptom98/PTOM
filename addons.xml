@@ -338,7 +338,7 @@ JAVStream V0.93.4 (3rd March 2018)
   </extension>
 </addon>
 
-<addon id="script.winwifi" name="Windows WiFi Manager" version="1.0.0" provider-name="ptom">
+<addon id="script.winwifiman" name="Windows Wi-Fi Manager" version="1.0.0" provider-name="ptom">
     <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
 	</extension>
@@ -346,7 +346,7 @@ JAVStream V0.93.4 (3rd March 2018)
 		<description lang="en">Manage Wifi on Widndows via Kodi</description>
         <summary>Manage Wifi on Widndows via Kodi</summary>
         <website>http://www.ptom.co.uk</website>
-		<platform>windx</platform>
+		<platform>all</platform>
 		<language>en</language>
 		<email>ptom98@gmail.com</email>
 	</extension>
