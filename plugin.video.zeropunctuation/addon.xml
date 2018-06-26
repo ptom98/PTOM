@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.zeropunctuation" name="Zero Punctuation" version="1.0.1" provider-name="ptom">
+<addon id="plugin.video.zeropunctuation" name="Zero Punctuation" version="1.0.2" provider-name="ptom">
 	<requires>
-        <import addon="script.module.audrey" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+		<import addon="script.module.audrey" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-    <extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Watch content from Zero Punctuation</summary>
-        <website>http://www.ptom.co.uk</website>
+		<summary lang="en">watch content from zero punctuation</summary>
+		<description>Watch content from Zero Punctuation</description>
 		<platform>all</platform>
 		<language>en</language>
 		<email>ptom98@gmail.com</email>
