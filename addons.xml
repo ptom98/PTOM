@@ -65,17 +65,16 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.1" provider-name="ptom">
+<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.2" provider-name="ptom">
 	<requires>
-        <import addon="script.module.audrey" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+		<import addon="script.module.audrey" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-    <extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Watch content from Funny or Die</summary>
-        <website>http://www.ptom.co.uk</website>
+		<description>Watch content from Funny or Die</description>
 		<platform>all</platform>
 		<language>en</language>
 		<email>ptom98@gmail.com</email>
@@ -289,7 +288,7 @@ JAVStream V0.93.4 (3rd March 2018)
   </extension>
 </addon>
 
-<addon id="script.module.audrey" name="Audrey" version="1.1.5" provider-name="ptom">
+<addon id="script.module.audrey" name="Audrey" version="1.1.6" provider-name="ptom">
 	<requires>
         <import addon="script.module.urlresolver" />
         <import addon="script.module.resolveurl" />
