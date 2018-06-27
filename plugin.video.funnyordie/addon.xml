@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.2" provider-name="ptom">
+<addon id="plugin.video.funnyordie" name="Funny or Die" version="1.0.3" provider-name="ptom">
 	<requires>
 		<import addon="script.module.audrey" />
 	</requires>
