@@ -156,6 +156,22 @@ JAVStream V0.93.4 (3rd March 2018)
 	</extension>
 </addon>
 
+<addon id="plugin.video.moderntoss" name="Modern Toss" version="1.0.0" provider-name="ptom">
+	<requires>
+		<import addon="script.module.audrey" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Modern Toss: the stink of excellence in a world gone tits up</summary>
+		<description>clips from series 1 and 2 of the Channel 4 Modern Toss TV series as well as videos from live events, exhibitions and some random shit thrown in there for good measure. </description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>ptom98@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="plugin.video.showroomlive" name="ShowRoom" version="0.3" provider-name="ptom">
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
