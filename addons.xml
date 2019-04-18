@@ -190,7 +190,7 @@ JAVStream V0.93.4 (3rd March 2018)
 	</extension>
 </addon>
 
-<addon id="plugin.video.soggysandwich" name="Soggysandwich" version="0.5" provider-name="ptom">
+<addon id="plugin.video.soggysandwich" name="Soggysandwich" version="0.6" provider-name="ptom">
     <requires>
         <import addon="script.module.requests" version="2.3.0"/>
         <import addon="script.module.requests-cache"/>

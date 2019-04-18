@@ -1,11 +1,7 @@
 -----------------------------------
-Soggysandwich v0.5 (3rd August 2018)
+Soggysandwich v0.6 (19th April 2019)
 -----------------------------------
-- Splite shows into seasons where nessecary
------------------------------------
-Soggysandwich v0.31 (8th Novemner 2017)
------------------------------------
-- Fixed cloudflare issue
+- Fixed login code
 -----------------------------------
 Soggysandwich v0.31 (7th October 2017)
 -----------------------------------
